@@ -13,6 +13,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-size: 1.4em;
 
 }
 
@@ -23,6 +24,7 @@ header {
     list-style-type: none;
     justify-content: space-between;
     align-items: flex-end;
+    
 
 
 }
@@ -32,16 +34,18 @@ header {
     display: flex;
     text-decoration: none;
     text-align: center;
-    align-items: center;
-    margin: 10px;
+    align-items: center;    
+    padding: 10PX;
     color: white;
+   
 
 
 
 }
 
 .cabecalho .navbar {
-    display: flex;
+    display: flex;  
+
 }
 
 
@@ -78,7 +82,7 @@ h1 {
 }
 
 
-p {
+.itens p {
     max-width: 265px;
     text-align: justify;
     padding: 10px;
@@ -139,8 +143,6 @@ p {
     text-align: center;
     padding: 1px;
     color: white;
-
-
 }
 
 
@@ -178,6 +180,7 @@ p {
     }
 
     .banner {
+        max-width: 900px;
         width: 100%;
     }
 
@@ -235,7 +238,7 @@ p {
 
 @media screen and (min-width:1280px) {
     .cabecalho {
-        background: green;
+        background: #727272;
 
         width: 100%;
 
